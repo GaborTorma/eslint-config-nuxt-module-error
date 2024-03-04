@@ -29,7 +29,7 @@
     "test:watch": "vitest watch"
   },
   "stackblitz": {
-    "startCommand": "pnpm lint"
+    "startCommand": "pnpm dev:prepare && pnpm lint"
   },
   "dependencies": {
     "@nuxt/kit": "^3.10.3"
